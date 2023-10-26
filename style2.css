@@ -1,0 +1,60 @@
+import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+/* 
+ AQUI É O MAIN DA PÁGINA 
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main{
+    background-color:var(--primary-color);
+    height: 879px;
+}
+
+.titulo-main{
+    position: relative;
+    color: white;
+    display: flex;
+    padding-top: 200px;
+    padding-left: 250px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.titulo-main h2{
+    font-size: 30px;
+    width: 40%;
+} 
+
+.botao-main{
+    padding-left: 250px;
+    padding-top: 20px;
+    color: #00c0cc;
+}
+
+
+.figure-main {
+    position: absolute;
+    padding-top: 200px;
+    top: 0;
+    padding-left: 55%;
+    width: 700px;
+    height: 550px;    
+}
+
+
+
+
+
+:root {
+    --primary-color: #ffc500;
+    --secondary-color: #eaae00;
+    --third-color: #00c0cc;
+    --third-color-hover: #02acb8;
+    --dark-color: #302f2f;
+  }
+  
